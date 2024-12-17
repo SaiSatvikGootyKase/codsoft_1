@@ -1,0 +1,132 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #E2F1E7;
+}
+
+.profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #243642;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #818283 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    margin-left: 10px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+section#about img {
+    margin-top: 30px;
+    margin-left: 1px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.project img {
+    width: 70px;
+    border: 1px solid #000000;
+    margin-bottom: 2px;
+    border-radius: 20px;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+}
+
+.Call {
+    display: flex;
+    align-items: center;
+}
+
+.LinkedIn-container {
+    display: flex;
+    align-items: center;
+}
+
+.GitHub-container {
+    display: flex;
+    align-items: center;
+}
+
+.email-icon {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.ln-icon {
+    height: 45px;
+    width: 45px;
+    margin-right: 14px;
+    margin-left: 4px;
+}
+
+.call-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 21px;
+    margin-left: 10px;
+}
+
+.gh-icon {
+    height: 35px;
+    width: 35px;
+    margin-right: 17px;
+    margin-left: 11px;
+}
